@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+main {
+    min-height: 100vh;
+    background-color: rgb(182, 222, 247);
+    color: rgb(7, 52, 97);
+    font-family: Consolas, 'Times New Roman', Times, serif;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.main__nav {
+    border-right: 2px solid black;
+}
+
+.main__container {
+    padding-left: 5px;
+}
+
+.main__nav p{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 900;
+}
+
+.main__nav a {
+    display: block;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.main__header {
+    text-align: center;
+}
+
+aside {
+    display: none;
+}
+
+.list {
+    margin-top: 30px;
+    list-style: none;
+}
+
+.list__item {
+    margin-bottom: 20px;
+    background-color: rgb(102, 186, 239);
+    border: 3px solid rgb(6, 62, 130);
+    border-radius: 10px;
+}
+
+.item__meta {
+    display: block;
+    padding: 20px;
+}
+
+.item__meta p {
+    margin-bottom: 10px;
+}
+
+.item__refs-container {
+    display: flex;
+    justify-content: center;
+}
+
+.item__ref {
+    display: block;
+    padding: 10px;
+    background-color: rgb(235, 254, 254);
+    border-radius: 10px;
+}
+
+.item__ref:nth-child(1) {
+    margin-right: 10px;
+}
+
+.item__ref:hover {
+    background-color: rgb(12, 121, 184);
+    color: white;
+    cursor: pointer;
+}
