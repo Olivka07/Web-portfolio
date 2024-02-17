@@ -76,6 +76,7 @@ aside {
     padding: 10px;
     background-color: rgb(235, 254, 254);
     border-radius: 10px;
+    color: inherit;
 }
 
 .item__ref:nth-child(1) {
